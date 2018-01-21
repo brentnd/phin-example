@@ -16,6 +16,12 @@ Route::get('/', [
     'uses' => 'PageController@home'
 ]);
 
+Route::get('/json', [
+    'as' => 'json',
+    'uses' => 'PageController@json'
+]);
+
+
 Route::get('/redirect', [
     'as' => 'redirect',
     'uses' => 'PageController@redirect'

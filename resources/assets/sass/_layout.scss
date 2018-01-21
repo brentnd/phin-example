@@ -13,6 +13,6 @@ section.has-bg-header {
     background-image: url('/img/header-bg.jpg');
     @include background-cover;
     .title, .subtitle {
-        color: $white-ter;
+        color: $black-ter;
     }
 }

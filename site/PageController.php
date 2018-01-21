@@ -17,6 +17,11 @@ class PageController extends Controller
         return view('pages.home', compact('services'));
     }
 
+    public function redirect()
+    {
+        return redirect()->route('home')->with('redirect', 'We redirected and flashed!');
+    }
+
     private function fakeService()
     {
         $faker = FakerFactory::create();

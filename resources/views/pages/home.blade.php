@@ -6,6 +6,13 @@
 <section class="hero has-bg-header is-fullheight">
     <div class="hero-body">
         <div class="container has-text-centered">
+            @if (session('redirect'))
+                <div class="notification is-info">
+                    <button class="delete"></button>
+                    <strong><i class="fa fa-info-circle"></i> </strong>
+                    {{ session('redirect') }}
+                </div>
+            @endif
             <h1 class="title">
                 A {{ config('site.name') }} site.
             </h1>

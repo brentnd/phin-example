@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "204f39e8622df68b6e593bb3139fe91d",
-    "content-hash": "4f04f1c7f9a396a76d2d268451400544",
+    "hash": "db824af6e9601abf1855f4455577cb94",
+    "content-hash": "537a6ea9f8963f91d3aa990ea906975e",
     "packages": [
         {
             "name": "brentnd/phin",

@@ -12,6 +12,11 @@
 */
 
 Route::get('/', [
-	'as' => 'home',
-	'uses' => 'PageController@home'
+    'as' => 'home',
+    'uses' => 'PageController@home'
+]);
+
+Route::get('/redirect', [
+    'as' => 'redirect',
+    'uses' => 'PageController@redirect'
 ]);

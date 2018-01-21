@@ -40,8 +40,8 @@
                         <a class="navbar-item page-scroll" href="#top">
                             Home
                         </a>
-                        <a class="navbar-item page-scroll" href="#section2">
-                            Section 2
+                        <a class="navbar-item page-scroll" href="#services">
+                            Services
                         </a>
                     </div>
                     <div class="navbar-end">

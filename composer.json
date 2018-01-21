@@ -2,6 +2,7 @@
     "require": {
         "brentnd/phin": "^1.0.0",
         "fzaninotto/faker": "^1.7",
-        "illuminate/session": "^5.4"
+        "illuminate/session": "^5.4",
+        "illuminate/mail": "^5.4"
     }
 }

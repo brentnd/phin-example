@@ -2,6 +2,8 @@
 
 namespace Site;
 
+use Mail;
+use Phin\MarkdownMail;
 use Illuminate\Routing\Controller;
 use Faker\Factory as FakerFactory;
 
@@ -17,6 +19,16 @@ class PageController extends Controller
     public function json()
     {
         return response()->json($this->fakeServices());
+    }
+
+    public function mail()
+    {
+        try {
+            Mail::to('example@gmail.com')->send((new MarkdownMail('emails.hello'))->with('name', 'John'));
+            return 'Mail send successfully';
+        } catch (\Exception $e) {
+            return 'Error - '.$e;
+        }
     }
 
     public function redirect()

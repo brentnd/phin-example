@@ -8,6 +8,10 @@ return [
     'site' => [
         'name' => env('SITE_NAME'),
     ],
+    'app' => [
+        // For mailer which references app.name
+        'name' => env('SITE_NAME'),
+    ],
     'view' => [
         'paths' => [
             realpath(base_path('resources/views')),
@@ -22,12 +26,32 @@ return [
          * Extra, optional service providers
          */
         Illuminate\Session\SessionServiceProvider::class,
+        Illuminate\Mail\MailServiceProvider::class,
+    ],
+    'aliases' => [
+        /*
+         * Extra, optional facade aliases
+         */
+        'Mail' => Illuminate\Support\Facades\Mail::class,
     ],
     'middleware' => [
         /*
          * Extra, optional middleware for all routes
          */
         Illuminate\Session\Middleware\StartSession::class,
+    ],
+    'mail' => [
+        "driver" => env('MAIL_DRIVER'),
+        "host" => env('MAIL_HOST'),
+        "port" => 2525,
+        "from" => array(
+          "address" => "no-reply@phin-example.com",
+          "name" => "No Reply"
+        ),
+        "username" => env('MAIL_USERNAME'),
+        "password" => env('MAIL_PASSWORD'),
+        "sendmail" => "/usr/sbin/sendmail -bs",
+        "pretend" => false
     ],
     'session' => [
         'driver' => env('SESSION_DRIVER', 'file'),

@@ -21,6 +21,10 @@ Route::get('/json', [
     'uses' => 'PageController@json'
 ]);
 
+Route::get('/mail', [
+    'as' => 'mail',
+    'uses' => 'PageController@mail'
+]);
 
 Route::get('/redirect', [
     'as' => 'redirect',

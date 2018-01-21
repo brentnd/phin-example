@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brentnd/phin.git",
-                "reference": "8f7a4f79694f6e0f9ec7b4df44a961681d33adc3"
+                "reference": "515dcb89fc0062fddac48c754dea87544a16cae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brentnd/phin/zipball/8f7a4f79694f6e0f9ec7b4df44a961681d33adc3",
-                "reference": "8f7a4f79694f6e0f9ec7b4df44a961681d33adc3",
+                "url": "https://api.github.com/repos/brentnd/phin/zipball/515dcb89fc0062fddac48c754dea87544a16cae9",
+                "reference": "515dcb89fc0062fddac48c754dea87544a16cae9",
                 "shasum": ""
             },
             "require": {

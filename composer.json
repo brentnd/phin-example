@@ -1,0 +1,5 @@
+{
+    "require": {
+        "brentnd/phin": "^1.0.0"
+    }
+}

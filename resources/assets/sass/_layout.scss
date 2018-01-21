@@ -1,0 +1,18 @@
+@import "theme/font-awesome";
+@import "theme/variables";
+@import "node_modules/bulma/bulma";
+@import "theme/overrides";
+@import "mixins";
+
+#logo {
+  max-width: 100%;
+  height: 50px;
+}
+
+section.has-bg-header {
+    background-image: url('/img/header-bg.jpg');
+    @include background-cover;
+    .title, .subtitle {
+        color: $white-ter;
+    }
+}

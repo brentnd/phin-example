@@ -45,6 +45,12 @@
                         </a>
                     </div>
                     <div class="navbar-end">
+                        <a class="navbar-item" href="https://github.com/brentnd/phin-example">
+                            Source
+                        </a>
+                        <a class="navbar-item" href="https://brentnd.github.io/phin/">
+                            Docs
+                        </a>
                         <div class="navbar-item">
                             <a class="button is-primary" href="#">
                                 <i class="fa fa-ravelry"></i>&nbsp;Action

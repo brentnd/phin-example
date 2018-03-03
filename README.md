@@ -12,4 +12,4 @@ The example site initialized with `phin init` has extra features:
 
 ## Preview
 
-This example site is hosted and served with phin [here](http://phin-example.brentdimmig.com/).
+This example site is hosted and served with phin [here](http://phin.bsrv.in).
